@@ -18,8 +18,8 @@ A little list of annoying bugs that might save you time if you are heading to cr
 
 
 
-Why, oh why do email clients suck so bad?
-=========================================
+Why, oh why do email clients need to differ that badly?
+=======================================================
 
 The Internet Consortium shut down in 2001 - maybe that could explain something.
 [source: http://www.imc.org/]
