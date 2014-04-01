@@ -1,7 +1,7 @@
 Most annoying responsive email rendering issues
 ===============================================
 
-<img src="http://162.243.0.54/most-annoying-email/assets/useless-markup.png"/>
+<img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png"/>
 
 
 A little list of annoying bugs that might save you time if you are heading to create a responsive email:
