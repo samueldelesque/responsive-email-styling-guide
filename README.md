@@ -17,7 +17,8 @@ A little list of annoying bugs that might save you time if you are heading to cr
 * To **hide text** in Gmail, you will have to set the color to "transparent". Also add "overflow:hidden;float:left;" and clear in css.
 * To **hide an image** in Outlook 2010/2007 you cannot simply add the styles on the image. You have to wrap the image in a span or other element and hide that span.
 * The Gmail app will NOT render any media queries (or anything inside a style element), so **forget about "responsive" emails in Gmail**.
-* Don't use half percentage on HTC android.
+* Don't use half percentage (use plain numbers) on images or HTC android **might** not display them.
+* Gmail app for Android will fuck up your display.
 
 
 
