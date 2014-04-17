@@ -18,8 +18,8 @@ A little list of annoying bugs that might save you time if you are heading to cr
 * To **hide an image** in Outlook 2010/2007 you cannot simply add the styles on the image. You have to wrap the image in a span or other element and hide that span.
 * The Gmail app will NOT render any media queries (or anything inside a style element), so **forget about "responsive" emails in Gmail**.
 * Don't use half percentage (use plain numbers) on images or HTC android **might** not display them.
-* Gmail app for Android will fuck up your display.
-
+* In IOS 6 and Android 4: when you have media queries around an image, the engine might not display the image if you are hiding the image originally (inline styles) - possibly because the two processes of rendering the css are running simultaniously, and only the last one to finish (the slowliest) wins. Anyway, add a minimum width in pixels to fix that.
+* Gmail app for Android will fuck up your display if your email is wider than [320?]px.
 
 
 
