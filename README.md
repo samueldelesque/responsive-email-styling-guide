@@ -10,6 +10,14 @@ A little list of annoying bugs that might save you time if you are heading to cr
 [I have excluded the most obvious like having to use Tables, obscure oldschool html/css patterns etc]
 
 
+todo list
+=========
+* don't re-use CSS classes generally (like you would in html). Its better to have a distinct class on each element so that you can style them separately (especially when then render differently in responsive mode)
+
+
+bug list
+========
+
 * Outlook 2007 and 2010 render HTML through Word Html engine, and therefore all **tables longer than 1790px will cause a line break**. The solution is to add a 'style="page-break-before: always"' on the containing tr element. [source: http://mikethecoder.tumblr.com/post/861597102/outlook-2007-screws-up-spacing-where-page-breaks-would] [read also: http://www.emailonacid.com/blog/details/C13/horizontal_spacing_issues_in_outlook_2007_and_2010]
 * Your {br/} tags now won't work as expected. You will need to **add tables and trs everywhere** you want line breaks.
 * Yahoo will render inline ALL your styles EVEN THOUGH it is a media query. So if you plan on increasing text for Iphone, remember it will be a **compromise between the Iphone's too small size and Yahoo's too big** size.
