@@ -28,3 +28,4 @@ bug list
 * Don't use half percentage (use plain numbers) on images or HTC android **might** not display them.
 * In IOS 6 and Android 4: when you have media queries around an image, the engine might not display the image if you are hiding the image originally (inline styles) - possibly because the two processes of rendering the css are running simultaniously, and only the last one to finish (the slowest) wins. Anyway, add a minimum width in pixels to fix that.
 * Gmail app for Android will fuck up your display if your email is wider than [320?]px.
+* Gmail will cut your html and add a "show more" button if your html is longer than **~100k characters**
