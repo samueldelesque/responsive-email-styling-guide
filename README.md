@@ -10,9 +10,39 @@ A little list of annoying bugs that might save you time if you are heading to cr
 [I have excluded the most obvious like having to use Tables, obscure oldschool html/css patterns etc]
 
 
-todo list
-=========
-* don't re-use CSS classes generally (like you would in html). Its better to have a distinct class on each element so that you can style them separately (especially when then render differently in responsive mode)
+
+
+
+
+## What to say when the designer asks
+
+(common examples)
+
+* negative top margin style
+
+
+## How to code the email
+
+* tables, tables, tables
+* inline styles
+* INK
+
+
+## Making it responsive
+
+* hiding elements
+* main, gutter class
+* re-ordering elements for mobile
+
+
+## Client specific issues
+
+* Gmail: No responsive design possible
+* Gmail Android: to avoid the "Gmail Responsiveness", add an image the size of the email in the parent table and set its min-width to the email width (i.e. 580px)
+
+* Outlook: Tables must be "breakable" around 1790px or less. Place a `page-break-before: always`  on the element where it would be OK to break (word rendering engine);
+
+
 
 
 bug list
