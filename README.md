@@ -1,7 +1,7 @@
 How to style a responsive HTML email 
 ====================================
-`(and avoid some common pitfalls)`
-==================================
+*** `(and avoid some common pitfalls)` ***
+
 
 <img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png" style="margin:0 auto"/>
 
