@@ -69,9 +69,10 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 	}
 ```
 * re-ordering elements for mobile
+```[td]```
 `[table B align=right]`
 `[table A align=left]`
-
+```[/td]```
 
 ## Client specific issues
 
