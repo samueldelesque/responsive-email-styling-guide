@@ -15,7 +15,6 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 * How many articles can I display? -`As many as can fit in 1790px height`
 * How wide should the email be? -`Less than 600px. (definitely no more than 800px)`
 * Can we add transparent PNGs on top of content? -`Nope`
-* Can 
 
 
 ## How to code the email
