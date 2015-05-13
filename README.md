@@ -32,6 +32,19 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 ## Making it responsive
 
 * hiding elements
+```
+		.show-mobile{
+			display:block !important;
+			visibility:visible !important;
+			mso-hide:none !important;
+			height:auto !important;
+			float:none !important;
+			max-height:none !important;
+			width:auto !important;
+		}
+		...
+		<table class="show-mobile" cellpadding="0" align="center" cellspacing="0" height="0" width="0" border="0" style="overflow:hidden;height:0;width:0;display: block;float:left;mso-hide:all;max-width:216px;margin:0 auto;padding-top:30px;">
+```
 * main, gutter class
 * re-ordering elements for mobile
 
