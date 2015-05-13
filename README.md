@@ -33,25 +33,43 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 
 * hiding elements
 ```
-		.show-mobile{
-			display:block !important;
-			visibility:visible !important;
-			mso-hide:none !important;
-			height:auto !important;
-			float:none !important;
-			max-height:none !important;
-			width:auto !important;
-		}
-		...
-		<table class="show-mobile" 
-			cellpadding="0" 
-			align="center" 
-			cellspacing="0" 
-			border="0" 
-			style="overflow:hidden;height:0;width:0;display: none;float:left;mso-hide:all;margin:0 auto;">
+	.show-mobile{
+		display:block !important;
+		visibility:visible !important;
+		mso-hide:none !important;
+		height:auto !important;
+		float:none !important;
+		max-height:none !important;
+		width:auto !important;
+	}
+	...
+	<table class="show-mobile" 
+		cellpadding="0" 
+		align="center" 
+		cellspacing="0" 
+		border="0" 
+		style="overflow:hidden;height:0;width:0;display: none;float:left;mso-hide:all;margin:0 auto;">
 ```
 * main, gutter class
+```
+	@media screen and (max-width: 600px){
+		.full{
+			width:100% !important;
+			height:auto !important;
+		}
+		.main{
+			width:94% !important;
+			height:auto !important;
+			min-height: 20px !important;
+		}
+		.gutter{
+			width:3% !important;
+			height: 10px !important;
+		}
+	}
+```
 * re-ordering elements for mobile
+[table B align=right][table A align=left]
 
 
 ## Client specific issues
