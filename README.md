@@ -20,7 +20,10 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 ## How to code the email
 
 * tables, tables, tables
-* inline styles, default td attributes
+* inline styles, default table/td attributes
+
+```<table valign="top" border="0" cellpadding="0" cellspacing="0" width="600" class="full">```
+
 * Assets must be cut by line
 * Assets that are replaçable by client (in Mailchimp) should not be on over/under-laying other elements
 * INK: allows for rapid 12col>1col responsive email layouts
