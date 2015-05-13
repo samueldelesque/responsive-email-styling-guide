@@ -60,6 +60,7 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 * Gmail Android: to avoid the "Gmail Responsiveness", add an image the size of the email in the parent table and set its min-width to the email width (i.e. 580px)
 
 * Outlook: Tables must be "breakable" around 1790px or less. Place a `page-break-before: always`  on the element where it would be OK to break (word rendering engine);
+* IOS/Apple Mail: The rendering is generally pretty good. If you would like to show a custom "content-exerpt" in the list view, you can add the copy to the Alt tag of the first image in the email (i.e. the logo, assuming there is no text before). This should work in other platforms as well.
 
 
 
