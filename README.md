@@ -1,13 +1,10 @@
 How to style a responsive HTML email 
 ====================================
-*** `(and avoid some common pitfalls)` ***
-
-
-<img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png" style="margin:0 auto"/>
-
 
 This is a draft of a guide on how to avoid common gotchas while developing your responsive html emails. It will not account for every trickery that's out there - but just the basics to get you started and avoid the most time consuming bugs.
 
+
+<img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png" style="margin:0 auto"/>
 
 
 ## What to say when the designer asks
