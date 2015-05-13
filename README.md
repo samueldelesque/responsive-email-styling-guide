@@ -1,5 +1,5 @@
-responsive email rendering issues
-=================================
+How to style a responsive HTML email (and avoid some common pitfalls)
+=====================================================================
 
 <img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png" style="margin:0 auto"/>
 
@@ -15,7 +15,8 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 * Can we add a gif? -`Sure - but make sure its ok if it falls back to just the first frame`
 * How many articles can I display? -`As many as can fit in 1790px height`
 * How wide should the email be? -`Less than 600px. (definitely no more than 800px)`
-* Can we can transparent PNGs on top of content? -`Nope`
+* Can we add transparent PNGs on top of content? -`Nope`
+* Can 
 
 
 ## How to code the email
