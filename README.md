@@ -4,28 +4,27 @@ responsive email rendering issues
 <img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png" style="margin:0 auto"/>
 
 
-A little list of annoying bugs that might save you time if you are heading to create a responsive email:
-
-
-[I have excluded the most obvious like having to use Tables, obscure oldschool html/css patterns etc]
-
-
-
+This is a draft of a guide on how to avoid common gotchas while developing your responsive html emails. It will not account for every trickery that's out there - but just the basics to get you started and avoid the most time consuming bugs.
 
 
 
 ## What to say when the designer asks
 
-(common examples)
-
-* negative top margin style
+* Can we have a [negative top margin style] element above a template image? -`Nay`
+* Can we use this non-standard webfont? -`Nay`
+* Can we add a gif? -`Sure - but make sure its ok if it falls back to just the first frame`
+* How many articles can I display? -`As many as can fit in 1790px height`
+* How wide should the email be? -`Less than 600px. (definitely no more than 800px)`
+* Can we can transparent PNGs on top of content? -`Nope`
 
 
 ## How to code the email
 
 * tables, tables, tables
-* inline styles
-* INK
+* inline styles, default td attributes
+* Assets must be cut by line
+* Assets that are replaçable by client (in Mailchimp) should not be on over/under-laying other elements
+* INK: allows for rapid 12col>1col responsive email layouts
 
 
 ## Making it responsive
