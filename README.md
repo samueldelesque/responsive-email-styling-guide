@@ -7,7 +7,7 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 <img src="http://162.243.0.54/most-annoying-email/assets/img/useless-markup.png" style="margin:0 auto"/>
 
 
-## What to say when the designer asks
+### What to say when the designer asks
 
 * Can we have a [negative top margin style] element above a template image? -`Nay`
 * Can we use this non-standard webfont? -`Nay`
@@ -17,7 +17,7 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 * Can we add transparent PNGs on top of content? -`Nope`
 
 
-## How to code the email
+### How to code the email
 
 * tables, tables, tables
 * inline styles, default table/td attributes
@@ -29,7 +29,7 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 * INK: allows for rapid 12col>1col responsive email layouts
 
 
-## Making it responsive
+### Making it responsive
 
 * hiding elements
 ```
@@ -77,7 +77,7 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 [/td]
 ```
 
-## Client specific issues
+### Client specific issues
 
 * Gmail: No responsive design possible
 * Gmail Android: to avoid the "Gmail Responsiveness", add an image the size of the email in the parent table and set its min-width to the email width (i.e. 580px)
@@ -88,8 +88,7 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 
 
 
-bug list
-========
+### bug list
 
 * Outlook 2007 and 2010 render HTML through Word Html engine, and therefore all **tables longer than 1790px will cause a line break**. The solution is to add a 'style="page-break-before: always"' on the containing tr element. [source: http://mikethecoder.tumblr.com/post/861597102/outlook-2007-screws-up-spacing-where-page-breaks-would] [read also: http://www.emailonacid.com/blog/details/C13/horizontal_spacing_issues_in_outlook_2007_and_2010]
 * Your {br/} tags now won't work as expected. You will need to **add tables and trs everywhere** you want line breaks.
@@ -100,3 +99,8 @@ bug list
 * [Not able to fully test] Don't use half percentage (use plain numbers) on images or HTC android **might** not display them.
 * Gmail app for Android add a "responsive mode" to your "non-reponsive email" (your media queries are stripped). To avoid having the broken "responsive mode" showing, you can add an image in the parent table and having a min-width attribute equal to the width of the email.
 * Gmail will cut your html and add a "show more" button if your html is longer than **~100k characters**
+
+
+### Domani
+
+This module was brought to you by [Sam](http://samueldelesque.me) at [Domani Studios](http://domanistudios.com)
