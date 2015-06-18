@@ -101,6 +101,6 @@ This is a draft of a guide on how to avoid common gotchas while developing your 
 * Gmail will cut your html and add a "show more" button if your html is longer than **~100k characters**
 
 
-### Domani
+### Credits
 
-This module was brought to you by [Sam](http://samueldelesque.me) at [Domani Studios](http://domanistudios.com)
+This project was brought to you by [Sam](http://samueldelesque.me) at [Domani Studios](http://domanistudios.com)
